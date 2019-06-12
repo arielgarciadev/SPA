@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(90deg, #2bc0e4 10%, #eaecc6 90%);
+    margin: 0;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    font-size: 1em;
+    margin: 15px 0;
+    border-radius: 8px;
+    background-color: #fbfbfbb3;
+    border-color: #717171;
+    padding: 15px;
+    list-style-type: none;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+li p {
+    display: inline-block;
+    margin: 0px 1em;
+    text-align: justify;
+    padding: 5px 0px;
+    font-size: 1em;
+}
+
+li span {
+    color: darkgray;
+}
+
+#flecha {
+    font-size: 2.2em;
+    color: white;
+    display: none;
+}
+
+#contenedor-cartas {
+    padding: 10px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.botones-autores {
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .4), 0 5px 15px rgba(0, 0, 0, .1);
+    margin: 5%;
+    text-align: center;
+    width: 40%;
+    float: left;
+    margin: 3% 5%;
+    border: none;
+    padding: 15px;
+    font-size: 1.2em;
+    border-radius: 8px;
+}
+
+#contenedor-post {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#contenedor-nota {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.cuerpo {
+    font-size: 1.2em;
+    border-radius: 8px;
+    background-color: #fff;
+    border-color: #717171;
+    padding: 25px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.cuerpo-comentario {
+    display: block;
+    font-size: 0.8em;
+}
